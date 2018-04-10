@@ -1,0 +1,81 @@
+<!--pages/try/applicationWin.wxml-->
+
+<swiper indicator-dots="{{indicatorDots}}" indicator-color="#fff" indicator-active-color="#3d1971" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='banner-info'>
+  <text class='banner-name'>fresh馥蕾诗大马士革玫瑰花瓣水体验装</text>
+  <view class='price-bg'>
+    <text class='banner-price'>免费试用</text>
+    <text class='banner-price2'>￥120</text>
+  </view>
+</view>
+
+<view class='pro-info'>
+  <image src="../images/application_info.png" class='info-img'></image>
+  <view class='info-name-bg'>
+    <view class='info-name'>份数
+      <text>200份</text>
+    </view>
+    <view class='info-name'>规格
+      <text>4ml*2</text>
+    </view>
+    <view class='info-name'>申请时间
+      <text>2018-03-24至2018-03-28</text>
+    </view>
+  </view>
+</view>
+
+<!--申请规则  -->
+<view class='rule-head-bg'>
+<image src='../images/application_title_bg.png' class='application_title_bg'></image>
+<text class='application_title_name'>申请规则 Rule</text>
+</view>
+<view>
+<image src='../images/rule.png' class='rule-img'></image>
+
+<view class='active-rule'>查看详细活动规则</view>
+</view>
+
+<!--活动介绍  -->
+<view class='rule-head-bg'>
+<image src='../images/application_title_bg.png' class='application_title_bg'></image>
+<text class='application_title_name'>活动介绍 Info</text>
+</view>
+<view class='active-info-img-bg'>
+<image src='../images/banner.jpg' class='active-info-img'></image>
+</view>
+
+
+<!--活动介绍  -->
+<view class='rule-head-bg'>
+<image src='../images/application_title_bg.png' class='application_title_bg'></image>
+<text class='application_title_name'>中选名单 Select</text>
+</view>
+<view class='select-user-bg'>
+<view class='avatar-bg'>
+<image src='../images/user_avatar.png' class='avatar'></image>
+<text class='user-name'>逗逗</text>
+</view>
+<view  class='avatar-bg'>
+<image src='../images/user_avatar.png' class='avatar'></image>
+<text class='user-name'>，</text>
+</view>
+<view  class='avatar-bg'>
+<image src='../images/user_avatar.png' class='avatar'></image>
+<text class='user-name'>圆子</text>
+</view>
+<view  class='avatar-bg'>
+<image src='../images/user_avatar.png' class='avatar'></image>
+<text class='user-name'>圆子</text>
+</view>
+<view  class='avatar-bg'>
+<image src='../images/user_avatar.png' class='avatar'></image>
+<text class='user-name'>圆子</text>
+</view>
+</view>

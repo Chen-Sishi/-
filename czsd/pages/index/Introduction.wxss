@@ -1,0 +1,60 @@
+/* pages/index/Introduction.wxss */
+
+.Introduction-img {
+  width: 710rpx;
+  margin: 20rpx auto;
+  display: block;
+}
+
+.Introduction-title {
+  font-size: 26rpx;
+  color: #fff;
+  font-weight: bold;
+  background: #3d1971;
+  margin:0 20rpx;
+  padding: 8rpx 10rpx;
+  display:inline-block;
+
+}
+.text-bg {
+  margin: 0 20rpx;
+}
+.info-text {
+  font-size: 28rpx;
+  line-height: 40rpx;
+  text-align: justify;
+  padding: 20rpx 20rpx;
+  color: #505050;
+  display: block;
+}
+.info-text2 {
+  font-size: 28rpx;
+  line-height: 40rpx;
+  text-align: justify;
+  padding:0 20rpx;
+  color: #505050;
+  display: block;
+}
+
+.info-text3 {
+  font-size:24rpx;
+  line-height: 40rpx;
+  text-align: justify;
+  padding:0 20rpx;
+  color: #505050;
+  display: block;
+  margin: 30rpx auto;
+}
+
+.mt-30{
+  margin-top: 30rpx;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<!--banner -->
+<image src='../images/banner.jpg' class='banner'></image>
+
+<!--4分类  -->
+<view class='categoryList'>
+  <view>
+    <image src='../images/category_img1.png' class='category-img'></image>
+    <text class='category-name'>会员中心</text>
+  </view>
+
+  <view>
+    <image src='../images/category_img2.png' class='category-img'></image>
+    <text class='category-name'>精彩活动</text>
+  </view>
+  <view>
+    <image src='../images/category_img3.png' class='category-img'></image>
+    <text class='category-name'>热门推荐</text>
+  </view>
+  <navigator url='/pages/index/Introduction'>
+    <image src='../images/category_img4.png' class='category-img'></image>
+    <text class='category-name'>商场介绍</text>
+  </navigator>
+</view>
+
+<!--图片列表  -->
+<view class='imgList'>
+  <navigator url='/pages/try/try'  class='list-contant'>
+    <image src='../images/list-img1.jpg' class='list-img'></image>
+    <view class='list-name' style="background:#3d1971">美妆试用</view>
+ </navigator>
+
+   <navigator url='/pages/reservation/reservation'  class='list-contant'>
+    <image src='../images/list-img1.jpg' class='list-img'></image>
+    <view class='list-name' style="background:#a68f3f">臻美空间</view>
+  </navigator>
+</view>

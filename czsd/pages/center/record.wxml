@@ -1,0 +1,94 @@
+<!--pages/center/record.wxml-->
+
+<view class='record-info-list'>
+  <image src='../images/record_brand.jpg' class='record-brand'></image>
+  <view>
+    <text class='brand-name'>预约品牌：迪奥</text>
+    <view class='record-info'>
+      <text class='record-info-name'>预约日期：</text>
+      <text>2018-03-31/星期六</text>
+    </view>
+    <view class='record-info'>
+      <text class='record-info-name'>具体时间：</text>
+      <text>14：00</text>
+    </view>
+    <view class='record-info'>
+      <text class='record-info-name'>护理类别：</text>
+      <text>面部护理</text>
+    </view>
+    <view class='record-info'>
+      <text class='record-info-name'>护理性别：</text>
+      <text>女士护理</text>
+    </view>
+    <view class='record-info'>
+      <text class='record-info-name'>预约状态：</text>
+      <text>已预约</text>
+    </view>
+  </view>
+  <view class='record-btn-bg'>
+    <button class='record-btn'>已预约</button>
+    <button class='record-btn'>取消预约</button>
+  </view>
+</view>
+
+<view class='record-info-list'>
+  <image src='../images/record_brand.jpg' class='record-brand'></image>
+  <view>
+    <text class='brand-name'>预约品牌：迪奥</text>
+    <view class='record-info'>
+      <text class='record-info-name'>预约日期：</text>
+      <text>2018-03-31/星期六</text>
+    </view>
+    <view class='record-info'>
+      <text class='record-info-name'>具体时间：</text>
+      <text>14：00</text>
+    </view>
+    <view class='record-info'>
+      <text class='record-info-name'>护理类别：</text>
+      <text>面部护理</text>
+    </view>
+    <view class='record-info'>
+      <text class='record-info-name'>护理性别：</text>
+      <text>女士护理</text>
+    </view>
+    <view class='record-info'>
+      <text class='record-info-name'>预约状态：</text>
+      <text>已预约</text>
+    </view>
+  </view>
+  <view class='record-btn-bg'>
+    <button class='record-btn'>已预约</button>
+    <button class='record-btn'>取消预约</button>
+  </view>
+</view>
+
+<view class='record-info-list'>
+  <image src='../images/record_brand.jpg' class='record-brand'></image>
+  <view>
+    <text class='brand-name'>预约品牌：迪奥</text>
+    <view class='record-info'>
+      <text class='record-info-name'>预约日期：</text>
+      <text>2018-03-31/星期六</text>
+    </view>
+    <view class='record-info'>
+      <text class='record-info-name'>具体时间：</text>
+      <text>14：00</text>
+    </view>
+    <view class='record-info'>
+      <text class='record-info-name'>护理类别：</text>
+      <text>面部护理</text>
+    </view>
+    <view class='record-info'>
+      <text class='record-info-name'>护理性别：</text>
+      <text>女士护理</text>
+    </view>
+    <view class='record-info'>
+      <text class='record-info-name'>预约状态：</text>
+      <text>已预约</text>
+    </view>
+  </view>
+  <view class='record-btn-bg'>
+    <button class='record-btn'>已预约</button>
+    <button class='record-btn'>取消预约</button>
+  </view>
+</view>

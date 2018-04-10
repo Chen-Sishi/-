@@ -1,0 +1,59 @@
+/* pages/reservation/reservation.wxml.wxss */
+
+page 
+{background: rgba(166,143,63,0.8)}
+
+.banner {
+  width: 750rpx;
+  height: 240rpx;
+  display: block;
+}
+.reservation-title {
+  font-size: 36rpx;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  margin: 30rpx auto;
+}
+.reservation-title::before,.reservation-title::after {
+  content: "";
+  width: 235rpx;
+  height: 1rpx;
+  background: #fff;
+  position: absolute;
+  top:26rpx;
+}
+.reservation-title::before {
+  left:40rpx;
+}
+.reservation-title::after {
+  right:40rpx;
+}
+
+.reservationList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.list-contant {
+  width: 30%;
+  margin-bottom: 20rpx;
+}
+.brand-img {
+  width: 140rpx;
+  height: 140rpx;
+  display: block;
+  margin: auto;
+  margin-bottom: 20rpx;
+}
+.brand-name {
+  font-size: 30rpx;
+  line-height: 53rpx;
+  text-align:center;
+  color: #56585d;
+}
+
+
+
+

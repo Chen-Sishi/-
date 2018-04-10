@@ -1,0 +1,63 @@
+<!--pages/reservation/reservationTime.wxml-->
+<image src='../images/reservation_banner.png' class='banner'></image>
+
+<scroll-view scroll-x class='time-list-bg'>
+  <view class='time-bg' wx:for="{{timeList}}" wx:item="item">
+    <image src='../images/time_bg.png' class='time-img'></image>
+    <view class='reservation_time-bg'>
+      <text class='reservation_time'>{{item.data}}</text>
+      <text class='reservation_time'>{{item.week}}</text>
+    </view>
+  </view>
+</scroll-view>
+
+
+<view>
+<text class='time-list-title'>具体时间段选择</text>
+<view class='reservation-list-title'> 
+<view class='time-list on'>10:00</view>
+<view class='time-list'>11:00</view>
+<view class='time-list'>13:00</view>
+<view class='time-list'>14:00</view>
+<view class='time-list'>15:00</view>
+<view class='time-list'>16:00</view>
+<view class='time-list'>17:00</view>
+<view class='time-list'>18:00</view>
+<view class='time-list'>19:00</view>
+</view>
+</view>
+
+<button class='reservation-btn' bindtap='modelShow'>预约</button>
+
+
+
+<!-- 预约弹窗 -->
+<view class='model-bg' hidden='{{modelHidden}}' bindtap='modelHidden'></view>
+
+<view hidden='{{modelHidden}}'>
+<form class='model-form' >
+<text class='model-input-title'>类别</text>
+<view class='category-list'>
+<view class='category'>面部护理</view>
+<view class='category'>眼部护理</view>
+<view class='category'>身体护理</view>
+</view>
+<view>
+ 
+</view>
+
+<text class='model-input-title'>性别 </text>
+<view class='category-list'>
+<view class='category'>女士护理</view>
+<view class='category'>男士护理</view>
+</view>
+
+
+<text class='model-input-title'>顾客须知 </text>
+<text class='model-tips'>预约成功之后，必须至少提前24小时取消或者修改，否
+则视为爽约迟到超过30分钟无法再享受服务</text>
+
+
+<button class='complete-btn'>提交</button>
+</form>
+</view>

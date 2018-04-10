@@ -1,0 +1,122 @@
+/* pages/center/winRecord.wxss */
+
+.tryList {
+  width: 693rpx;
+  height: 480rpx;
+  margin: 20rpx auto;
+  background: #fff;
+  box-shadow: #d7d7d7 2rpx 2rpx 16rpx;
+  border-radius: 10px;
+  position: relative;
+}
+
+.try-title {
+  position: absolute;
+  width: 698rpx;
+  height: 74rpx;
+  display: block;
+  top: 15rpx;
+  left: -6rpx;
+  z-index: 1;
+}
+
+.try-model {
+  position: absolute;
+  font-size: 28rpx;
+  color: #fff;
+  z-index: 9;
+  top: 25rpx;
+  left: 20rpx;
+}
+
+.try-name {
+  position: absolute;
+  font-size: 28rpx;
+  color: #9b9b9b;
+  z-index: 9;
+  top: 25rpx;
+  right: 20rpx;
+}
+
+.list-contant {
+  display: flex;
+  justify-content: space-between;
+  padding:98rpx 20rpx 20rpx 20rpx;
+}
+
+.try-img {
+  width: 170rpx;
+  height: 360rpx;
+  display: block;
+  margin-right: 20rpx;
+}
+
+.try-pro-info {
+  flex: 1;
+}
+
+.info-title {
+  font-size: 28rpx;
+  line-height: 44rpx;
+  display: block;
+}
+
+.info-time {
+  font-size: 20rpx;
+  line-height: 44rpx;
+  display: block;
+  color: #818181;
+}
+
+.info-time text {
+  color: #000;
+}
+
+.info-img {
+  width: 456rpx;
+  height: 43rpx;
+  display: block;
+  margin-top:10rpx;
+}
+
+.information-list {
+  width: 456rpx;
+  height: 43rpx;
+  display: flex;
+  justify-content: space-around;
+  margin: 20rpx 0 10rpx 0;
+}
+
+.information-list text {
+  font-size: 24rpx;
+  text-align: center;
+  
+}
+
+.progress-img {
+  width: 456rpx;
+  height: 28rpx;
+  display: block;
+}
+
+.application-btn {
+  background: #fff;
+  width: 216rpx;
+  height: 70rpx;
+  border-radius: 10rpx;
+  color: #3d1971;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 70rpx;
+  margin-top: 10rpx;
+  float:right;
+  border: #3d1971 2rpx solid;
+
+}
+.application-btn .like-icon {
+  width: 42rpx;
+  height: 35rpx;
+  vertical-align: middle;
+  margin-top: -2rpx;
+  margin-right: 10rpx;
+}

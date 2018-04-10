@@ -1,0 +1,69 @@
+<!--pages/try/try.wxml-->
+<navigator url='/pages/try/application' class='tryList'>
+  <view class=''>
+    <image src="../images/title_bg.png" class='try-title'></image>
+    <text class='try-model'>产品试用VOL.117</text>
+    <text class='try-name'>fresh馥蕾诗</text>
+  </view>
+  <view class='list-contant'>
+    <image src="../images/try_img1.png" class='try-img'></image>
+    <view class='try-pro-info'>
+      <text class='info-title'>fresh馥蕾诗大马士革玫瑰花瓣水体验装</text>
+      <text class='info-time'>申请时间：<text>2018-03-24至2018-03-28</text></text>
+      <image src='../images/info-img.png' class='info-img'></image>
+      <view class='information-list'>
+        <text>12.00元</text>
+        <text>200份</text>
+        <text>4ml*2</text>
+      </view>
+       <image src='../images/progress.png' class='progress-img'></image>
+      <view class='application-btn'><image src='../images/like_icon.png' class='like-icon'></image>免费申请</view>
+    </view>
+  </view>
+ </navigator>
+
+<view class='tryList'>
+  <view class=''>
+    <image src="../images/title_bg.png" class='try-title'></image>
+    <text class='try-model'>产品试用VOL.117</text>
+    <text class='try-name'>fresh馥蕾诗</text>
+  </view>
+  <view class='list-contant'>
+    <image src="../images/try_img1.png" class='try-img'></image>
+    <view class='try-pro-info'>
+      <text class='info-title'>fresh馥蕾诗大马士革玫瑰花瓣水体验装</text>
+      <text class='info-time'>申请时间：<text>2018-03-24至2018-03-28</text></text>
+      <image src='../images/info-img.png' class='info-img'></image>
+      <view class='information-list'>
+        <text>12.00元</text>
+        <text>200份</text>
+        <text>4ml*2</text>
+      </view>
+       <image src='../images/progress.png' class='progress-img'></image>
+      <view class='application-btn'><image src='../images/like_icon.png' class='like-icon'></image>免费申请</view>
+    </view>
+  </view>
+</view>
+
+<view class='tryList'>
+  <view class=''>
+    <image src="../images/title_bg.png" class='try-title'></image>
+    <text class='try-model'>产品试用VOL.117</text>
+    <text class='try-name'>fresh馥蕾诗</text>
+  </view>
+  <view class='list-contant'>
+    <image src="../images/try_img1.png" class='try-img'></image>
+    <view class='try-pro-info'>
+      <text class='info-title'>fresh馥蕾诗大马士革玫瑰花瓣水体验装</text>
+      <text class='info-time'>申请时间：<text>2018-03-24至2018-03-28</text></text>
+      <image src='../images/info-img.png' class='info-img'></image>
+      <view class='information-list'>
+        <text>12.00元</text>
+        <text>200份</text>
+        <text>4ml*2</text>
+      </view>
+       <image src='../images/progress.png' class='progress-img'></image>
+      <view class='application-btn' style='background:#3e186f'><image src='../images/like_icon.png' class='like-icon'></image>中奖名单</view>
+    </view>
+  </view>
+</view>

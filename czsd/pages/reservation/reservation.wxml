@@ -1,0 +1,13 @@
+<!--pages/reservation/reservation.wxml.wxml-->
+<image src='../images/reservation_banner.png' class='banner'></image>
+
+<view class='reservation-title'>美容预约</view>
+
+<!--品牌列表  -->
+<view  class='reservationList'>
+  <view wx:for="{{reservationList}}" wx:for-item='item'  class='list-contant'  >
+    <image src='{{item.img}}' class='brand-img'></image>
+    <view class='brand-name' style="{{item.background}}" >{{item.name}}</view>
+  </view>
+</view>
+

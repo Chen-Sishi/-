@@ -1,0 +1,41 @@
+<!--pages/business.wxml-->
+<text class='input-title'>顾客信息：</text>
+<view class='input-bg'>
+<text class='input-name'>姓名：</text>
+<input type='text' placeholder='马小玲' class='input-style'></input>
+</view>
+<view class='input-bg'>
+<text class='input-name'>性别：</text>
+<input type='text' placeholder='女' class='input-style'></input>
+</view>
+
+<view class='input-bg'>
+<text class='input-name'>联系电话：</text>
+<input type='text' placeholder='15071234568' class='input-style'></input>
+</view>
+
+<text class='input-title' style='margin-top:50rpx;'>预约信息：</text>
+<view class='input-bg'>
+<text class='input-name'>预约日期：</text>
+<input type='text' placeholder='2018-03-31/星期六' class='input-style'></input>
+</view>
+<view class='input-bg'>
+<text class='input-name'>具体时间：</text>
+<input type='text' placeholder='14：00' class='input-style'></input>
+</view>
+
+<view class='input-bg'>
+<text class='input-name'>类别：</text>
+<input type='text' placeholder='面部护理' class='input-style'></input>
+</view>
+<view class='input-bg'>
+<text class='input-name'>性别</text>
+<input type='text' placeholder='女士护理' class='input-style'></input>
+</view>
+<view class='input-bg'>
+<text class='input-name'>时长</text>
+<input type='text' placeholder='30-60分钟' class='input-style'></input>
+</view>
+
+
+<button class='sure-btn'>确认</button>

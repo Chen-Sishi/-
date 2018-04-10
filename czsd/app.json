@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/try/application",    
+    "pages/center/index",
+    "pages/business",
+    "pages/index/index",
+    "pages/reservation/reservationTime",
+    "pages/center/winRecord",
+    "pages/center/record",
+    "pages/index/Introduction",
+    "pages/reservation/reservation",
+    "pages/try/applicationWin",
+    "pages/try/try",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3d1971",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "color": "#828282",
+    "selectedColor": "#3f1871",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/tab_icon1.png",
+        "selectedIconPath": "pages/images/tab_select_icon1.png"
+      },
+      {
+        "pagePath": "pages/center/index",
+        "text": "个人中心",
+        "iconPath": "pages/images/tab_icon2.png",
+        "selectedIconPath": "pages/images/tab_select_icon2.png"
+      }
+    ]
+  }
+}

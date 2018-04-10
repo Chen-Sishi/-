@@ -1,0 +1,159 @@
+/* pages/try/applicationWin.wxss */
+
+.slide-image {
+  width: 750rpx;
+  height: 420rpx;
+  display: block;
+}
+
+.banner-info {
+  display: flex;
+  padding: 20rpx 20rpx;
+  justify-content: space-between;
+}
+
+.banner-name {
+  font-size: 34rpx;
+  flex: 1;
+  margin-right: 20rpx;
+}
+
+.price-bg {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-price {
+  font-size: 34rpx;
+  color: #db3c49;
+}
+
+.banner-price2 {
+  font-size: 30rpx;
+  color: #818181;
+  position: relative;
+}
+
+.banner-price2::after {
+  content: '';
+  position: absolute;
+  width: 110rpx;
+  height: 1rpx;
+  background: #818181;
+  left: 10px;
+  top: 20rpx;
+}
+
+.info-img {
+  width: 75rpx;
+  height: 150rpx;
+}
+
+.pro-info {
+  display: flex;
+  padding: 20rpx 20rpx;
+}
+
+.info-name-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10rpx;
+}
+
+.info-name {
+  color: #878787;
+  font-size: 28rpx;
+}
+
+.info-name text {
+  color: #db3c49;
+}
+
+.rule-head-bg {
+  position: relative;
+  width: 750rpx;
+  height: 64rpx;
+  margin-top: 30rpx;
+}
+
+.application_title_bg {
+  width: 750rpx;
+  height: 64rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.application_title_name {
+  font-size: 34rpx;
+  color: #fff;
+  position: absolute;
+  top: 10rpx;
+  left: 20rpx;
+}
+
+.rule-img {
+  display: block;
+  width: 750rpx;
+  height: 130rpx;
+  margin: 50rpx auto;
+}
+
+.active-rule {
+  text-align: center;
+  background: #f3f3f3;
+  display: block;
+  width: 650rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin: 30rpx auto;
+  color: #505050;
+  font-size: 32rpx;
+}
+
+.info-text {
+  font-size: 28rpx;
+  line-height: 40rpx;
+  text-align: justify;
+  padding: 20rpx 20rpx;
+  color: #505050;
+  display: block;
+}
+
+.active-info-img-bg {
+  margin: 20rpx auto;
+}
+
+.active-info-img {
+  display: block;
+  width: 685rpx;
+  margin: auto;
+}
+
+.select-user-bg {
+  display: flex;
+  margin: 30rpx 30rpx;
+  flex-wrap: wrap;
+}
+
+.avatar-bg {
+  width: 140rpx;
+  margin: 10rpx 47rpx;
+  text-align: center;
+}
+
+.avatar {
+  width: 140rpx;
+  height: 140rpx;
+  display: block;
+  margin: auto;
+}
+
+.user-name {
+  font-size: 28rpx;
+  text-align: center;
+  color: #000;
+}

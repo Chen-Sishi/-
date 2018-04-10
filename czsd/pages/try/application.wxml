@@ -1,0 +1,138 @@
+<!--pages/try/application.wxml-->
+
+<swiper indicator-dots="{{indicatorDots}}" indicator-color="#fff" indicator-active-color="#3d1971" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='banner-info'>
+  <text class='banner-name'>fresh馥蕾诗大马士革玫瑰花瓣水体验装</text>
+  <view class='price-bg'>
+    <text class='banner-price'>免费试用</text>
+    <text class='banner-price2'>￥120</text>
+  </view>
+</view>
+
+<view class='pro-info'>
+  <image src="../images/application_info.png" class='info-img'></image>
+  <view class='info-name-bg'>
+    <view class='info-name'>份数
+      <text>200份</text>
+    </view>
+    <view class='info-name'>规格
+      <text>4ml*2</text>
+    </view>
+    <view class='info-name'>申请时间
+      <text>2018-03-24至2018-03-28</text>
+    </view>
+  </view>
+</view>
+
+<!--申请规则  -->
+<view class='rule-head-bg'>
+<image src='../images/application_title_bg.png' class='application_title_bg'></image>
+<text class='application_title_name'>申请规则 Rule</text>
+</view>
+<view>
+<image src='../images/rule.png' class='rule-img'></image>
+
+<view class='active-rule'>查看详细活动规则</view>
+</view>
+
+<!--活动介绍  -->
+<view class='rule-head-bg'>
+<image src='../images/application_title_bg.png' class='application_title_bg'></image>
+<text class='application_title_name'>活动介绍 Info</text>
+</view>
+<text class='info-text'>活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍，活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍。
+活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍活动介绍
+</text>
+
+<!--申请人资料  -->
+<view class='rule-head-bg'>
+<image src='../images/application_title_bg2.png' class='application_title_bg'></image>
+<text class='application_title_name'>申请人资料 Profile</text>
+</view>
+
+<!--不是认真用户样式  -->
+<!-- <text class='profile-tips' style='margin-bottom:15rpx;'>哎呦~您还不是武商广商认证用户呢</text>
+<text class='profile-tips' style='margin-top:0;'>现在就免费认证  开始武广之旅吧</text>
+<button class='profile-btn'>快捷认证</button> -->
+
+
+<text class='profile-tips'>参与用户小调查,让我们更多了解你的需求！</text>
+<form class='form-bg'>
+<view>
+<text class='input-name'>您的姓名*</text>
+<input type='text' class='input-style'></input>
+</view>
+<view>
+<text class='input-name'>联系电话*</text>
+<input type='number' maxlength='11' class='input-style'></input>
+</view>
+<view>
+<text class='input-name'>您的年龄属于*</text>
+<view class='age-btn-bg'>
+<button class='age-btn {{item.selected ? "age-btn-selected":" "}} '  wx:for="{{ageList}}" wx:item="item" id="{{index}}"  
+bindtap="checkedAge" >{{item.age}} </button>
+</view>
+</view>
+<view style='margin-top:20rpx;'>
+<text class='input-name'>性别*</text>
+<view class='age-btn-bg'>
+<button class='age-btn {{item.selected ? "age-btn-selected":" "}} '  wx:for="{{sexList}}" wx:item="item" id="{{index}}"  
+bindtap="checkedSex" >{{item.sex}}  </button>
+</view>
+</view>
+<view style='margin-top:20rpx;'>
+<text class='input-name'>您的肤质属于?*</text>
+<view class='age-btn-bg'>
+<button class='age-btn {{item.selected ? "age-btn-selected":" "}} '  wx:for="{{skinList}}" wx:item="item" id="{{index}}" bindtap="checkedSkin">{{item.skin}} </button>
+</view>
+</view>
+<view style='margin-top:20rpx;'>
+<text class='input-name'>您是武广的VIP吗?*</text>
+<view class='age-btn-bg'>
+<button class='age-btn {{item.selected ? "age-btn-selected":" "}} '  wx:for="{{vipList}}" wx:item="item" id="{{index}}" bindtap="checkedVip">{{item.vip}} </button>
+
+</view> 
+</view>
+<view>
+<text class='input-name'>VIP卡号*</text>
+<input type='number' class='input-style'></input>
+</view>
+
+<view>
+<text class='input-name' style='color:#000'>互动留言</text>
+<textarea maxlength='250' class='textarea-style' />
+</view>
+<view class='application-btn-bg'>
+<text class='application-text'>限250字内</text>
+<button class='application-btn' bindtap='modelShow'>提交申请</button>
+</view>
+</form>
+
+<!-- 申请弹窗 -->
+<view class='model-bg' hidden='{{modelHidden}}' bindtap='modelHidden'></view>
+
+<view hidden='{{modelHidden}}'>
+<form class='model-form' >
+<text class='model-input-title'>快速申请武广会员卡</text>
+<view>
+  <input type='text' placeholder='您的姓名' class='model-input'></input>
+  <input type='number' placeholder='您的身份证号'  class='model-input'></input>
+  <text class='help-text'>帮助</text>
+   <input type='number' placeholder='手机号'  class='model-input'></input>
+</view>
+
+<text class='model-input-title'>手机验证码 </text>
+<view class='code-bg'>
+<input type='number' class='model-code' placeholder='手机验证码'></input><button class='code-btn'>获取验证码</button>
+</view>
+<button class='complete-btn'>完成</button>
+</form>
+</view>
+
